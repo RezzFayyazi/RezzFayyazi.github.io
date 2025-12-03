@@ -23,7 +23,7 @@ repository               : "RezzFayyazi/RezzFayyazi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./images/headshot-rez.jpg"
+  avatar           : "headshot-rez.jpg"
   name             : "Reza Fayyazi"
   pronouns         : # example: "she/her"  
   bio              : "PhD ECE @ RIT | Responsible AI"
