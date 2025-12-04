@@ -6,12 +6,86 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+<div class="wordwrap">
+  You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+</div>
 {% endif %}
+
+## Publications
+
+---
+
+### **How Can You Tell if Your Large Language Model Could Be a Closet Antisemite? A Framework to Bias Audit Large Language Models**  
+Dutta, A., Fayyazi, R., Yang, S. J., & KhudaBukhsh, A. R. (2026).  
+*40th Annual AAAI Conference on Artificial Intelligence, AI for Social Impact (AISI) Track, Dorsett Changi, Singapore.*  
+**Status:** Accepted for Publication  
+[Paper Link](https://aaai.org/conference/aaai/aaai-26/aisi-call/)  
+**Venue:** AAAI-2026
+
+---
+
+### **LLM Embedding-based Attribution (LEA): Quantifying Source Contributions to Generative Model's Response for Vulnerability Analysis**  
+Fayyazi, R., Zuzak, M., & Yang, S. J. (2025).  
+*arXiv preprint arXiv:2506.12100.*  
+**Status:** Submitted for Publication  
+[arXiv Link](https://arxiv.org/abs/2506.12100)  
+**Venue:** Arxiv-2025
+
+---
+
+### **ProveRAG: Provenance-Driven Vulnerability Analysis with Automated Retrieval-Augmented LLMs**  
+Fayyazi, R., Trueba, S., Zuzak, M., & Yang, S. J. (2025).  
+*IEEE Access.*  
+doi: 10.1109/ACCESS.2025.3638251  
+[IEEE Link](https://ieeexplore.ieee.org/document/11272947)  
+**Venue:** IEEE Access-2025
+
+---
+
+### **Guided Reasoning in LLM-Driven Penetration Testing Using Structured Attack Trees**  
+Nakano, K., Fayyazi, R., Yang, S. J., & Zuzak, M. (2025).  
+*Second Conference on Language Modeling (COLM), Montreal, Canada.*  
+[arXiv Link](https://arxiv.org/abs/2410.17406)  
+**Venue:** COLM-2025
+
+---
+
+### **Advancing TTP Analysis: Harnessing the Power of Large Language Models with Retrieval Augmented Generation**  
+Fayyazi, R., Taghdimi, R., & Yang, S. J. (2024).  
+*ACSAC Workshops, Honolulu, HI, USA.*  
+doi: 10.1109/ACSACW65225.2024.00036  
+[IEEE Link](https://ieeexplore.ieee.org/abstract/document/10918057)  
+**Venue:** ACSACW-2024
+
+---
+
+### **Is More Information Better? How Increasingly Augmented LLM Help in Vulnerability Assessment** *(Poster Paper)*  
+Fayyazi, R., Trueba, S., & Yang, S. J. (2024).  
+*USENIX Security Symposium Poster Session, Philadelphia, PA, USA.*  
+[Poster Link](https://www.usenix.org/conference/usenixsecurity24/poster-session)  
+**Venue:** USENIX-2024
+
+---
+
+### **On the Uses of Large Language Models to Interpret Ambiguous Cyberattack Descriptions**  
+Fayyazi, R., & Yang, S. J. (2023).  
+*arXiv preprint arXiv:2306.14062.*  
+[arXiv Link](https://arxiv.org/abs/2306.14062)  
+**Venue:** Arxiv-2023
+
+---
+
+### **Translating Cybersecurity Descriptions into Interpretable MITRE Tactics using Transfer Learning** *(Poster Paper)*  
+Fayyazi, R., Wufeng Y. S., Gautam P., & Yang S. J. (2022).  
+*ACSAC 2022, Austin, TX, USA.*  
+[Paper Link](https://www.acsac.org/2022/program/final/p37.html)  
+**Venue:** ACSAC-2022
+
+---
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
+<!-- Optional: keep your auto-rendering logic if you still use posts -->
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
@@ -31,6 +105,3 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
-
-
