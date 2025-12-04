@@ -7,9 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Electrical and Computer Engineering at the Rochester Institute of Technology (RIT).  
-My research focuses on the **responsible use of Generative AI in fast-changing cybersecurity environments**.  
-Specifically, I develop **explainable and reliable metrics** for GenAI systems facing complex, ambiguous, and out-of-distribution threats. I also explore **responsible AI agents** that maintain accountability, traceability, and trustworthiness within production-grade security workflows.
+I am a PhD student in Electrical and Computer Engineering at the Rochester Institute of Technology (RIT). My research specializes on the **responsible use of Generative AI**.  More specifically, I focus on enhancing the reliability, transparency, and accountability of AI systems in real-world applications. By developing **explainable metrics** for GenAI systems facing complex, ambiguous, and out-of-distribution threats, I aim to improve decision-making and build trust in AI-driven solutions. I also explore **responsible AI agents** that maintain accountability, traceability, and trustworthiness within production-grade workflows.
+
+
+### Research Interests
+
+Explainable & Trustworthy AI – Developing methods that enhance the interpretability and reliability of AI systems.
+
+Adaptability in High-Stakes Environments – Designing AI solutions that continuously learn and adapt to evolving threats.
 
 ## 🤝 Collaboration
 
